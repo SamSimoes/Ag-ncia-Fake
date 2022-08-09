@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Long+Cang&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  flex: 20%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.logo a {
+  font-family: "Lobster", cursive;
+  color: #6a45ab;
+  font-size: 34px;
+  text-decoration: none;
+}
+
+.menu {
+  flex: 70%;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a {
+  color: #6a45ab;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+.menu a:hover {
+  color: #f75b32;
+  border-top: 4px solid #6a45ab;
+}
+
+a#button-login {
+  background-color: #6a45ab;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 10% 0 5%;
+  border-top: initial;
+}
+a#button-login:hover {
+  background-color: #f75b32;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.headline {
+  flex: 40%;
+  margin-left: 10%;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #f75b32;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.contact-btn:hover {
+  background-color: #6a45ab;
+}
+.headline h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6a45ab;
+  letter-spacing: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.headline h3 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #6a45ab;
+  padding: 0;
+  margin: 0;
+}
+.headline p {
+  color: #8b7bac;
+  text-align: left;
+}
+
+.img-headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+  flex: 40%;
+}
+.img-headline img {
+  max-width: 90%;
+}
+
+section {
+  display: inline-block;
+  margin-top: 80px;
+  margin: 0 5% 0 5%;
+  padding: 5%;
+  text-align: center;
+}
+
+section h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  color: #6a45ab;
+}
+.information {
+  display: flex;
+  flex-direction: row;
+}
+
+.services {
+  border: 1px solid #f75b32;
+  border-radius: 10px;
+  margin: 60px 2% 0 0;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.services:hover {
+  background-color: #f75b32;
+  color: white;
+  padding: 40px;
+}
+
+.services:hover img {
+  display: none;
+}
+
+.services:hover .card-text {
+  display: none;
+}
+
+.card-hover {
+  display: none;
+}
+
+.services:hover .card-hover {
+  display: block;
+  padding-top: 25px;
+}
+
+.services h3 {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(180deg, #6a45ab, #2e1b4f, black);
+  border-top: 4px solid #f75b32;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.logo-footer h2 {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 34px;
+  margin: 0;
+}
+
+.logo-footer h3 {
+  color: white;
+  margin: 0;
+}
+
+footer p {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  right: calc(50% - 65px);
+}
